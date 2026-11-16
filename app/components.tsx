@@ -123,12 +123,14 @@ export function Hero() {
       ))}
       <div className="wrap hero-layout">
         <div className="hero-copy" aria-live={rotating ? "off" : "polite"} aria-atomic="true">
-          <p className="eyebrow hero-eyebrow"><span />{slide.eyebrow}</p>
-          <h1>{slide.title}<br /><em>{slide.accent}</em></h1>
-          <p className="hero-description">{slide.description}</p>
-          <div className="actions">
-            <Link href={slide.href} className="button gold">{slide.cta}<ArrowUpRight size={17} /></Link>
-            <Link href="#admissions" className="button outline">Plan a visit <ArrowRight size={17} /></Link>
+          <div className="hero-content" key={slide.image}>
+            <p className="eyebrow hero-eyebrow"><span />{slide.eyebrow}</p>
+            <h1>{slide.title}<br /><em>{slide.accent}</em></h1>
+            <p className="hero-description">{slide.description}</p>
+            <div className="actions">
+              <Link href={slide.href} className="button gold">{slide.cta}<ArrowUpRight size={17} /></Link>
+              <Link href="#admissions" className="button outline">Plan a visit <ArrowRight size={17} /></Link>
+            </div>
           </div>
         </div>
         <div className="hero-bottom">
