@@ -1,6 +1,6 @@
-:HL["/happy-lands-schools/_next/static/chunks/2r5ok5d6t-yhr.css","style"]
+:HL["/happy-lands-schools/_next/static/chunks/2glda606utmrg.css","style"]
 :HC["/",""]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"preparatory","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"campuses","h":96,"c":"$Q2"}]]
-0:{"b":"h0efJv95oREcd4gDSH6tA","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"A6lR6FwslO8_WWnnD80Ki","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
